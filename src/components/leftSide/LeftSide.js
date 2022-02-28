@@ -10,14 +10,14 @@ const LeftSide = () => (
             <div className="d-flex flex-column align-items-center">
                 <Avatar margin />
                 <div className="d-flex justify-content-center flex-wrap align-items-baseline">
-                    <p className="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p>
-                    <h1 className="o-font-lg ml-2 o-text-purple">Nihad Mehmedović</h1>
+                    <p className="o-font-lg text-white mb-1 mb-sm-3" style={{fontWeight: 'bold', fontSize: "35px"}}>Hi, I am</p>
+                    <h1 className="o-font-lg ml-2 o-text-purple" style={{fontWeight: 'bold', fontSize: "35px"}}>Nihad Mehmedović.</h1>
                 </div>
-                <p className="text-center text-white">I am a Bachelor of Mathematics and Informatics
+                <p className="text-center text-white" style={{fontWeight: 'bold', fontSize: "25px"}}>I am a Bachelor of Mathematics and Informatics
                 . I can provide clean code and also make websites  more interactive with web animations.</p>
                 <div className="row mb-5 justify-content-center">
-                    <a href={CV} download className="d-block m-3 text-white o-btn text-center py-2 position-relative">DOWNLOAD CV</a>
-                    <a href="/contact" className="d-block m-3 text-white o-btn text-center py-2 position-relative">CONTACT ME</a>
+                    <a href={CV} download className="d-block m-3 text-white o-btn text-center py-2 position-relative" style={{fontWeight: 'bold'}}>DOWNLOAD CV</a>
+                    <a href="/contact" className="d-block m-3 text-white o-btn text-center py-2 position-relative" style={{fontWeight: 'bold'}}>CONTACT ME</a>
                 </div>
             </div>
         </div>

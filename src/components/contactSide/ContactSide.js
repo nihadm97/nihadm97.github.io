@@ -3,7 +3,7 @@ import Title from './../title/Title';
 import withCustomScroll from './../../hoc/withCustomScroll';
 
 const ContactItem = ({ title, body }) => (
-    <li className="d-flex flex-column mb-3">
+    <li className="d-flex flex-column mb-3" >
         <span className="o-font-sm mb-1 o-text-purple">{title}</span>
         <span className="o-font-xs">{body}</span>
     </li>
@@ -42,7 +42,7 @@ render(){
     return(
         <>
             <Title>Contact Me</Title>
-            <ul className="list-unstyled o-grid">
+            <ul className="list-unstyled o-grid" style={{fontWeight: 'bold'}}>
                 {
                     this.state.ContactItems.map(item => (
                         <ContactItem key={item.id} {...item} />
