@@ -2,6 +2,9 @@
   "homepage": "https://github.com/nihadm97/nihadm97.github.io.git",
   "name": "oftadeh-portfolio",
   "version": "0.1.0",
+  "engine": {
+    "node": "14.16"
+  }
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
