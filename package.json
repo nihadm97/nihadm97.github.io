@@ -1,6 +1,6 @@
 {
   "homepage": "https://github.com/nihadm97/nihadm97.github.io.git",
-  "name": "oftadeh-portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "engine": {
     "node": "14.16.0"
